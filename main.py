@@ -85,6 +85,7 @@ while True:
         continue
 
     urls, url, html_content = package
+    print(url)
     text_content = get_text(html_content=html_content, min_length=300)
     extract_text_result = "BAD" if not text_content else "GOOD"
     print(f"Kết quả extract text: {extract_text_result}!")
