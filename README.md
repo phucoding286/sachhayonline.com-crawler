@@ -1,1 +1,1 @@
-# sachhayonline.com-crawler
+### Tool này được dùng để crawl dữ liệu từ sachhayonline.com để tạo dữ liệu huấn luyện Language Model, hãy nhấn vào file main.bat hoặc main.py là nó sẽ chạy, thay đổi các thông số trực tiếp trong code ở các biến global.
