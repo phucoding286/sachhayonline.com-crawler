@@ -12,7 +12,7 @@ root_url = "https://www.sachhayonline.com/"
 limit_batch_num = 1_000_000
 current_file_crawlpart = f"{datasets_folder}/crawlpart1.json"
 writer_metadata_path = f"{datasets_folder}/metadata.json"
-buffer_size = 10
+buffer_size = 128
 cooldown = 1
 # loop text là phần text thường xuất hiện nhiều nhất trong nội dung và tần suất crawl, buộc phải bỏ qua nếu muốn dữ liệu sạch.
 loop_text = "SachHayOnline.com\nSachHayOnline.com\nTrang chủ\nThư viện sách\nVăn học Việt Nam\nVăn học nước ngoài\nLịch sử\nViệt Nam sử lược\nThành ngữ - Tục Ngữ\nTruyện cổ tích Việt Nam\nCác thể loại khác\nTác giả\nThể loại sách\nẨm thực - Nấu ăn\nCổ Tích - Thần Thoại\nCông Nghệ Thông Tin\nHọc Ngoại Ngữ\nHồi Ký - Tuỳ Bút\nHuyền bí - Giả Tưởng\nKhoa Học - Kỹ Thuật\nKiếm Hiệp - Tiên Hiệp\nKiến Trúc - Xây Dựng\nKinh Tế - Quản Lý\nLịch Sử - Chính Trị\nMarketing - Bán hàng\nNông - Lâm - Ngư\nPhiêu Lưu - Mạo Hiểm\nSách Giáo Khoa\nSách Nổi Bật\nSách nói miễn phí\nTâm Lý - Kỹ Năng Sống\nThể Thao - Nghệ Thuật\nThơ Hay\nThư Viện Pháp Luật\nTiểu Thuyết Phương Tây\nTiểu Thuyết Trung Quốc\nTriết Học\nTrinh Thám - Hình Sự\nTruyện Cười - Tiếu Lâm\nTruyện Ma - Truyện Kinh Dị\nTruyên Teen - Tuổi Học Trò\nTruyện Tranh\nTử Vi - Phong Thủy\nVăn Hóa - Tôn Giáo\nVăn Học Việt Nam Sách\nY Học - Sức Khỏe\nTruyện cười\nLiên hệ\n"
